@@ -77,12 +77,6 @@
     <Content Include="package.json" />
     <Content Include="readme.md" />
     <Content Include="tsconfig.json" />
-    <None Include="Web.Debug.config">
-      <DependentUpon>Web.config</DependentUpon>
-    </None>
-    <None Include="Web.Release.config">
-      <DependentUpon>Web.config</DependentUpon>
-    </None>
   </ItemGroup>
   <ItemGroup>
     <Content Include="examples\arrow-functions\index.html" />
@@ -135,7 +129,6 @@
     <Content Include="examples\unions-aliases-const-enums\styles\app.css" />
     <Content Include="examples\unions-aliases-const-enums\styles\bootstrap.min.css" />
     <Content Include="index.html" />
-    <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
     <TypeScriptCompile Include="examples\arrow-functions\scripts\arrow-functions.ts" />
@@ -203,7 +196,7 @@
     <VisualStudio>
       <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}">
         <WebProjectProperties>
-          <UseIIS>True</UseIIS>
+          <UseIIS>False</UseIIS>
           <AutoAssignPort>True</AutoAssignPort>
           <DevelopmentServerPort>10202</DevelopmentServerPort>
           <DevelopmentServerVPath>/</DevelopmentServerVPath>
