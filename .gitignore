@@ -11,3 +11,11 @@ plnkr.html
 #plnkr.demo.html
 
 npm-debug.log
+/.vs/TypeScriptDemos/v15/.suo
+/obj/Debug
+/bin
+/.vs
+/TypeScriptDemos.csproj.user
+/Web.config
+/Web.Debug.config
+/Web.Release.config
